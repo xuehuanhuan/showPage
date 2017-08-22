@@ -1,0 +1,465 @@
+.bg{
+	width: 100%;
+	height: 5253px;
+	background: url(../image/bg.jpg) no-repeat center;
+	background-position: 50% 50%;
+}
+.sub_bg{
+	width: 1000px;
+	height: 5253px;
+	margin:0 auto;
+}
+/*顶部导航栏*/
+.sub_bg a{
+	display: block;
+}
+.top_nav{
+	height: 160px;
+}
+.logo{
+	background: url(../image/logo.png);
+	float: left;
+	width: 343px;
+	height: 77px;
+	margin: 28px 70px 0px 49px;
+}
+.ad{
+	background: url(../image/ad.png);
+	float: left;
+	width: 245px;
+	height: 71px;
+	margin-top: 44px;
+}
+.collect a{
+	width: 175px;
+	height: 120px;
+	float: left;
+	margin-left: 118px;
+}
+.collect a:hover{
+	background: url(../image/shift.png);
+}
+/*热卖爆款*/
+.hot_nav{
+	height: 1803px;
+}
+.hot1{
+	width: 364px;
+	height: 151px;
+	background: url(../image/product_bottom.png) no-repeat;
+	float: right;
+	margin:402px 110px 258px 0px;
+}
+.sub a{
+	float: left;
+	width: 99px;
+	height: 120px;
+	background: url(../image/hot_product.png) no-repeat;
+	margin-left: 37px;
+}
+.sub2_hot1 a{
+	background-position: -99px 0px;
+	margin-top: 14px;
+	margin-left: 0px;
+}
+.sub3_hot1 a{
+	background-position: -198px 0px;
+	margin-left: 0px;	
+}
+.sign{
+	background: url(../image/sign.png);
+	float: left;
+	width: 159px;
+	height: 50px;
+	margin:489px 0px 272px 237px;
+}
+.hot2{
+	float: left;
+	width: 1000px;
+	height: 312px;
+}
+.product{
+	position: relative;
+	width: 477px;
+	height: 312px;
+	background-position: -364px 0px;
+	margin: 0px;
+	float: left;
+}
+.sub2 a{
+	position: absolute;
+	width: 200px;
+	height: 241px;
+	left: 215px;
+	top: 11px;
+	margin: 0px;
+	background: url(../image/hot_product2.png);
+	background-position: -242px 0px;
+}
+.sub_hot2 a{
+	position: absolute;
+	width: 242px;
+	height: 217px;
+	left: 57px;
+	top: 43px;
+	background-position: 0px 0px;
+}
+.buy{
+	overflow: hidden;
+	float: left;
+	width: 330px;
+	height: 190px;
+	margin-left: 83px;
+	margin-top:60px; 
+}
+.character{
+	float: left;
+	width: 109px;
+	height: 71px;
+	background: url(../image/character.png) no-repeat;
+	margin: 43px 17px 33px 24px;
+}
+.price{
+	float: left;
+	width: 129px;
+	height: 79px;
+	color: #fff100;
+	margin-top: 27px;
+	margin-bottom:41px;
+	font-weight: bold;
+}
+.price span:first-child{
+	font-size: 20px;
+}
+.price span+span{
+	font-size: 42px;
+}
+.text{
+	width: 122px;
+	height: 22px;
+	border-radius: 4px;
+	background: #fff;
+	line-height: 22px;
+	text-align: center;
+}
+.text span:first-child{
+	font-size: 14px;
+	color: #fd4a00;
+}
+.text span:last-child{
+	font-size: 12px;
+	color: #a75b18;
+	text-decoration: line-through;
+}
+.btn a{
+	float: left;
+	width: 139px;
+	height: 41px;
+	margin-left: 99px;
+}
+.btn a:hover{
+	background: url(../image/shift2.png);
+}
+.hot3 .buy{
+	float: left;
+	margin-top: 66px;
+	margin-left: 98px;
+} 
+.character2{
+	width: 97px;
+	height: 73px;
+	margin-bottom: 27px;
+	background-position: -109px 0px;
+}
+.sub3{
+	float: right;
+	position: relative;
+	width: 477px;
+	height: 321px;
+	margin-right: 37px;
+}
+.sub_hot3 a{
+	position: absolute;
+	width: 198px;
+	height: 241px;
+	background-position: -687px 0px;
+	left: 200px;
+	top: 8px;
+}
+.sub_hot4 a{
+	position: absolute;
+	width: 245px;
+	height: 224px;
+	left: 36px;
+	top: 32px;
+	background-position: -442px 0px; 
+}
+.sub_hot5 a{
+	position: absolute;
+	width: 200px;
+	height: 245px;
+	top: 8px;
+	background-position: -1124px 0px;
+}
+.sub_hot6 a{
+	top: 44px;
+	left: 54px;
+	position: absolute;
+	width: 239px;
+	height: 216px;
+	background-position: -885px 0px;
+}
+.character3{
+	width: 108px;
+	background-position: -206px 0px;
+}
+.hot_nav .hot2:last-child .buy{
+	margin-top: 85px;
+}
+/*店长推荐*/
+.shop{
+	height: 924px;
+}
+.shop a{
+	line-height: 22px;
+	font-size: 22px;
+	color: #ffc100;
+	margin: 134px 0px 30px 612px;
+}
+.sub_shop{
+	margin-left:52px; 
+	width: 910px;
+	height: 817px;
+}
+.shop1{
+	float: left;
+	background: #fec200;
+	border-radius: 4px;
+	width: 298px;
+	height: 264px;
+	margin-left: 5px;
+	margin-bottom: 8px;
+}
+.shop2{
+	background: url(../image/shop.jpg);
+	width: 284px;
+	height: 183px;
+	margin: 4px 7px;
+}
+.shop2:hover{
+	background: url(../image/shift.jpg);
+}
+.shop2_text{
+	background: #a17303;
+	width: 284px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-top:2px solid #936b03;
+	border-bottom: 2px solid #936b03;
+	margin: 4px 7px;
+}
+.shop2_text2{
+	width: 92px;
+	height: 44px;
+	float: left;
+}
+.shop2_text3{
+	overflow: hidden;
+	float: left;
+	margin-left: 11px;
+	color: #fe0000;
+	font-weight: bold;
+}
+.shop2_text3 span:first-child{
+	float: left;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 12px;
+}
+.shop2_text3 span:last-child{
+	float: left;
+	font-size: 26px;
+	line-height: 26px;
+}
+.bottom{
+	float: left;
+	background: #412206;
+	border-radius:2px;
+	width: 74px;
+	height: 12px;
+	line-height: 12px;
+	text-align: center;
+	margin-left: 11px;
+	font-size: 12px;
+	color: #ffcb01;
+	text-decoration:line-through;
+}
+.shop-btn{
+	position: relative;
+	float: right;
+	width: 118px;
+}
+.shop-btn a{
+	background: #fd0101;
+	margin: 3px 6px 0px 0px;
+	border-radius: 5px;
+	font-size: 18px;
+	line-height: 34px;
+	color: #fff;
+	padding-left: 13px;
+}
+.shop-btn a:hover{
+	background: #ec3c07;
+}
+.icon{
+	position: absolute;
+	top: 8px;
+	left: 90px;
+	width: 14px;
+	height: 23px;
+	background: url(../image/icon.png);
+}
+.shop3{
+	background-position: -284px 0px;
+}
+.shop4{
+	background-position: -568px 0px;
+}
+.shop5{
+	background-position: 0px -183px;
+}
+.shop6{
+	background-position: -284px -183px;
+}
+.shop7{
+	background-position: -568px -183px;
+}
+.shop8{
+	background-position: 0px -366px;
+}
+.shop9{
+	background-position: -284px -366px;
+}
+.shop10{
+	background-position: -568px -366px;
+}
+/*吃货必看*/
+.floor{
+	height: 871px;
+}
+.top_floor{
+	position: relative;
+	margin: 160px 312px 15px 556px;
+}
+.top_floor a{
+	width: 113px;
+	border-radius: 5px;
+	background: #402605;
+	font-size: 22px;
+	line-height: 34px;
+	padding-left: 17px;
+	color: #e99537;
+}
+.icon2{
+	width: 17px;
+	height: 23px;
+	background-position: -14px 0px;
+	top: 5px;
+	left: 105px;
+}
+.sub_floor{
+	width: 948px;
+	margin-left: 38px;
+}
+.food{
+	float: left;
+	width: 297px;
+	height: 392px;
+	margin-right: 16px;
+}
+.sub_food{
+	width: 295px;
+	height: 268px;
+	border:2px dashed #9d6a00;
+	border-radius: 8px;
+}
+.food1{
+	width: 288px;
+	height: 260px;
+	margin:3px; 
+	background: url(../image/food.png);
+}
+.food_text{
+	width: 287px;
+	height: 38px;
+	margin:2px 7px 13px 3px;
+	border-bottom: 2px dashed #3c0c00;
+	line-height: 38px;
+	font-size: 24px;
+	text-align: center;
+	color: #3c0c00;
+}
+.food_price{
+	color: #212e02;
+	font-weight: bold;
+}
+.food_price span:first-child{
+	font-size: 18px;
+}
+.food_price span+span{
+	font-size: 42px;
+	line-height: 56px;
+}
+.food_btn{
+	width: 163px;
+	float: right;
+	margin-right: 6px;
+}
+.food_btn a{
+	background: #ff0105;
+	height: 48px;
+	font-size: 26px;
+	line-height: 48px;
+	border-radius: 4px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.food_btn a:hover{
+	background: #ec3c07;
+}
+.food2{
+	background-position: -288px 0px;
+}
+.food3{
+	background-position: -576px 0px;
+}
+.food4{
+	background-position: 0px -260px;
+}
+.food5{
+	background-position: -288px -260px;
+}
+.food6{
+	background-position: -576px -260px;
+}
+.food7{
+	background-position: 0px -520px;
+}
+.food8{
+	background-position: -288px -520px;
+}
+.food9{
+	background-position: -576px -520px;
+}
+.food10{
+	background-position: 0px -780px;
+}
+.food11{
+	background-position: -288px -780px;
+}
+.food12{
+	background-position: -576px -780px;
+}
+
